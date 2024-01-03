@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>H-Endri</title>
+  <meta name="description" content="H-Endri" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="/assets/jpg/logo.jpg">
+
+  <!-- Email.JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init('.');
+    })();
+  </script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content">
+      <div class="header__logo-container">
+        <div class="header__logo-img-cont">
+          <img src="./assets/jpg/logo.jpg" alt="Logo Image" class="header__logo-img" />
+        </div>
+        <span class="header__logo-sub">H-Endri</span>
+      </div>
+      <div class="header__main">
+        <ul class="header__links">
+          <li class="header__link-wrapper">
+            <a href="./index.html#home" class="header__link"> Home </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#about" class="header__link">Chi Siamo </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#projects" class="header__link">
+              Servizi
+            </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#contact" class="header__link"> Contattaci </a>
+          </li>
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+          <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close"
+            class="header__main-ham-menu-close d-none" />
+        </div>
+      </div>
+    </div>
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <li class="header__sm-menu-link">
+            <a href="./index.html"> Home </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#about"> Chi Siamo </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#projects"> Servizi </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#contact"> Contattaci </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section id="home" class="home-hero">
+    <div class="home-hero__content">
+      <h1 class="heading-primary">Servizi Elettrici</h1>
+      <div class="home-hero__info">
+        <p class="text-primary">
+          Diagnosi specialistiche e strumentazioni Certificati
+        </p>
+      </div>
+      <div class="home-hero__cta">
+        <a href="./#projects" class="btn btn--bg">Servizi</a>
+      </div>
+    </div>
+    <div class="home-hero__socials">
+      <div class="home-hero__social">
+        <a href="https://www.linkedin.com/" target="_blank"
+          class="home-hero__social-icon-link">
+          <img src="./assets/png/linkedin-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+      <!-- 
+        <div class="home-hero__social">
+          <a href="#" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/twitter-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="#" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/yt-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        -->
+      <div class="home-hero__social">
+        <a href="#" class="home-hero__social-icon-link home-hero__social-icon-link--bd-none">
+          <img src="./assets/png/insta-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+    </div>
+    <!--
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+      -->
+  </section>
+  <section id="about" class="about sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main">Chi Siamo</span>
+        <span class="heading-sec__sub">
+          Henri.it è un laboratorio di misure e certificazioni, con clienti sia pubblici che privati al cui interno prestano la propria professionalità Ingegneri, 
+          Professionisti ed ex Tecnici di enti pubblici (quali ARPA, ENPI) che hanno maturato esperienze pluriennali nel campo dell’impiantistica civile ed industriale, 
+          nel campo delle energie rinnovabili e nel campo delle verifiche di leggi cogenti sugli impianti.
+
+          L’obiettivo primario di Henri.it è quello di garantire un servizio di elevato livello professionale grazie alla competenza tecnica specialistica, 
+          al continuo aggiornamento normativo e alla dotazione di strumentazione conforme alle normative di settore.
+        </span>
+      </h2>
+      <div class="about__content">
+        <div class="about__content-main">
+          <div class="about__content-skills">
+            <h3 class="about__content-title">Le nostre competenze</h3>
+            <div class="skills">
+              <div class="skills__skill">
+                <img src="./assets/jpg/verifica.jpg" />
+                <p><b>Verifica Sugli Impianti A Norma Di Legge</b><hr >
+                  Henri effettua verifiche periodiche sugli impianti di messa a terra e scariche atmosferiche ai sensi del DPR 462/01.</p>
+              </div>
+              <div class="skills__skill">
+                <img src="./assets/png/verifica.png" />
+                <p><b>Verifica Della Progettazione</b><hr >
+                  Henri effettua Verifiche della Progettazione ai fini della validazione in ambito pubblico e privatistico</p>
+              </div>
+              <div class="skills__skill">
+                <img src="./assets/jpg/taratura.jpg" />
+                <p><b>Taratura Dei Contatori Di Energia Attiva</b><hr >
+                  Henri ha ottenuto l’autorizzazione dall’Agenzia delle dogane per la Taratura dei Contatori di Energia Attiva.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section id="projects" class="projects sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-bg">
+        <span class="heading-sec__main">Servizi</span>
+      </h2>
+
+      <div class="projects__content">
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/jpg/cassetta-prova-rele-2.jpg" alt="Software Screenshot" class="projects__row-img"
+              loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Verifica relè con casseta prova relè</h3>
+            <p class="projects__row-content-desc">
+              Henri è organizzato per eseguire le verifiche con cassetta prova relè mediante strumentazione propria (vedi pagina Strumentazioni) e per il rilascio di 
+              un report finale attestante la conformità del sistema come da normativa CEI 0-21 (2016-07) e CEI 0-16 (2014-09).
+            </p>
+            <p class="projects__row-content-desc">
+              <strong>Rif normativo</strong><br>
+              La Verifica dei Sistemi di Protezione tramite cassetta prova relè d'interfaccia viene richiesta Ai Sensi delle Norme CEI 0-16 e CEI 0-21.
+            </p>
+            <p class="projects__row-content-desc">
+              <strong>Dichiarazione di conformità</strong><br>
+              La dichiarazione di conformità è pretesa dai Gestori della Rete Elettrica (es: Enel Energia) per avere un controllo accurato dei 
+              produttori allacciati in rete, limitando i disturbi che questi possono apportare al regolare funzionamento della rete elettrica.
+            </p>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/jpg/verifica-rele-cassetta-prova-rele-2.jpg" alt="Software Screenshot" class="projects__row-img"
+              loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Nello specifico chi ha l’obbligo di eseguire le prove di conformità?</h3>
+            <p class="projects__row-content-desc">
+              - I titolari degli impianti di produzione in esercizio e connessi alle reti MT e BT, con impianti di produzione superiori 11,08 kW e SPI esterno, devono eseguire 
+              le prove su SPI con cassetta di prova ogni 5 anni ed inviare i risultati al Distributore.
+              <br >
+              - I titolari degli impianti di produzione in esercizio e connessi alle reti MT e BT di potenza fino a 11,08 kW, o con SPI integrato, devono eseguire le 
+              prove sul SPI tramite autotest ogni anno e riportarle su apposito registro, senza inviare i risultati al Distributore.
+            </p>
+            <!-- 
+            <a href="./project-3.html" class="btn btn--med btn--theme dynamicBgClr">Scopri di più</a>
+            -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact sec-pad dynamicBg">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main heading-sec__main--lt">Contattaci</span>
+        <!--
+        <span class="heading-sec__sub heading-sec__sub--lt">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
+          tempora explicabo quae quod deserunt eius sapiente
+        </span>
+        -->
+      </h2>
+      <div class="contact__form-container">
+        <form action="" class="contact__form">
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="name">Nome</label>
+            <input required placeholder="Nome Cognome" type="text" class="contact__form-input" name="name" id="name"
+              onkeyup="validateName()" />
+            <span id="name-error" class="contact__subtitle"></span>
+          </div>
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="email">Email</label>
+            <input required placeholder="Email..." type="text" class="contact__form-input" name="email" id="email"
+              onkeyup="validateEmail()" />
+            <span id="email-error" class="contact__subtitle"></span>
+          </div>
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="message">Messaggio</label>
+            <textarea required cols="30" rows="10" class="contact__form-input" placeholder="Scrivici..." name="message"
+              id="message" onkeyup="validateMessage()"></textarea>
+            <span id="message-error" class="contact__subtitle"></span>
+          </div>
+          <!--
+          <div>
+            <a onclick="return SendMail()" class="button button--flex">
+              Send Message
+              <i class="uil uil-message button__icon"></i>
+            </a>
+          </div>
+          -->
+          <a onclick="return SendMail()">
+            <div class="btn btn--theme contact__btn">
+              Submit
+            </div>
+          </a>
+
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <div class="main-footer__row main-footer__row-1">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Social</span>
+          </h2>
+          <div class="main-footer__social-cont">
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"
+              href="#">
+              <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="#">
+              <img class="main-footer__icon main-footer__icon--mr-none" src="./assets/png/insta-ico.png" alt="icon" />
+            </a>
+          </div>
+        </div>
+        <div class="main-footer__row main-footer__row-2">
+          <!-- h4 class="heading heading-sm text-lt">H-Ingenium</h4> -->
+          <p class="main-footer__short-desc">
+            P.IVA 11988390966
+          </p>
+          <p class="main-footer__short-desc">
+            info@hingenium.com
+          </p>
+        </div>
+      </div>
+
+      <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+      <div class="main-footer__lower">
+        &copy; Copyright 2023. Made by
+        <a rel="noreferrer" target="_blank" href="#">Kakami</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
